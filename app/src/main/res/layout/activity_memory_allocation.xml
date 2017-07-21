@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.whitewolf.mymemorydemoapp.MemoryAllocationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:text="Each block/byte methods produce the same value just in different memory units (block/byte): "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Block Size: "/>
+
+    <TextView
+        android:id="@+id/memory_alloc_block_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Available Blocks (for Apps): "/>
+
+    <TextView
+        android:id="@+id/memory_alloc_available_blocks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Available Bytes (for Apps): "/>
+
+    <TextView
+        android:id="@+id/memory_alloc_available_bytes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Block Count (on system): "/>
+
+    <TextView
+        android:id="@+id/memory_alloc_block_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Bytes Total (on system): "/>
+
+    <TextView
+        android:id="@+id/memory_alloc_bytes_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Block Free (on system): "/>
+
+    <TextView
+        android:id="@+id/memory_alloc_block_free"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Bytes Free (on system): "/>
+
+    <TextView
+        android:id="@+id/memory_alloc_bytes_free"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+
+
+
+</LinearLayout>
